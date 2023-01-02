@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    letter-spacing: -0.025em;
+}
+
+input,
+button,
+textarea {
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    vertical-align: middle;
+}
+
+button {
+    cursor: pointer;
+}
+
+.btn_o {
+    background: transparent;
+    border: none;
+    outline: none;
+    line-height: 1;
+}
+
+.bold {
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.flex_inner {
+    display: flex;
+    gap: 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.flex_inner>* {
+    flex: 1;
+}
+
+.mc {
+    color: #ff6347;
+}
+
+.mbg {
+    background: #f9f9f9;
+}
+
+.sec {
+    padding: 100px 0;
+}
+
+.sec .tit {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sec .tit h2 {
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    margin: 0 0 10px 0;
+}
+
+.sec .tit .tit_dec {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0 0 50px 0;
+    word-break: keep-all;
+    line-height: 24px;
+}
+
+.btn {
+    display: inline-block;
+    background: transparent;
+    border: 1px solid #444;
+    padding: 4px 20px 3px 20px;
+}
+
+.label {
+    border: 10px solid #ff6347;
+    border-right: 10px solid transparent;
+    height: 0;
+}
+
+.label>span {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    transform: translate(0, -50%);
+    padding: 0 20px 0 0;
+}
+
+.youtube_case {
+    position: relative;
+    background: tomato;
+    padding-bottom: 56.25%;
+}
+
+.youtube_case iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* case에 패딩으로 사이즈를 %로 줘서 반응형으로 만들고
+영상을 그 위에 띄워 올려 위치를 잡는것 */
